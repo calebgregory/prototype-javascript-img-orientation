@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,7 +25,10 @@
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root">
-      <img id="img" alt="Image" />
+      <h1>Loaded with src tag:</h1>
+      <img src="/orientation_photo.jpg" alt="Not rotated">
+      <h1>Loaded with XHR, orientation processed using Exif data:</h1>
+      <img id="img" alt="Rotated" />
     </div>
     <script src="./index.js"></script>
     <!--

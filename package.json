@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "browserify src/index.js -o public/index.js",
+    "serve": "http-server -p 8000 ./public",
+    "start": "npm run build; npm run serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +22,7 @@
   "homepage": "https://github.com/calebgregory/prototype-javascript-img-orientation#readme",
   "devDependencies": {
     "axios": "^0.18.0",
-    "browserify": "^16.2.3"
+    "browserify": "^16.2.3",
+    "http-server": "^0.11.1"
   }
 }

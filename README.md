@@ -1,9 +1,13 @@
 # prototype-javascript-img-orientation
 
-STATIC_HTTP_SERVER_ONE_LINER = [pick your
-one-liner](https://gist.github.com/willurd/5720255)
 
+Install dependencies
 ```
-npm run build
-<STATIC_HTTP_SERVER_ONE_LINER> public
+npm install
 ```
+
+To start,
+```
+npm run start
+```
+and open [http://localhost:8000](http://localhost:8000)
