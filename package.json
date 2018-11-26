@@ -1,0 +1,25 @@
+{
+  "name": "prototype-javascript-img-orientation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/index.js -o public/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebgregory/prototype-javascript-img-orientation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calebgregory/prototype-javascript-img-orientation/issues"
+  },
+  "homepage": "https://github.com/calebgregory/prototype-javascript-img-orientation#readme",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "browserify": "^16.2.3"
+  }
+}
